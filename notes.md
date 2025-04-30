@@ -66,3 +66,7 @@ Syllabus = Programa de estudos
 - **videos**: https://www.codecademy.com/resources/videos
 - **cheatsheets**: https://www.codecademy.com/resources/cheatsheets/all
 - **cheatsheet**: https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet
+
+
+## Dicionário
+. built-in: integrado
