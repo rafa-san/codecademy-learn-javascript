@@ -7,7 +7,6 @@ In the ES6 version of JavaScript, we can insert, or interpolate, variables into 
 | console.log(`I own a pet ${myPet}.`);
 | // Output: I own a pet armadillo.
 
-
 Notice that:
 
 - a template literal is wrapped by backticks ` (this key is usually located on the top of your keyboard, left of the 1 key).

@@ -24,5 +24,3 @@ function getReminder() {
 function greetInSpanish() {
   console.log('Buenas tardes.')
 }
-
-

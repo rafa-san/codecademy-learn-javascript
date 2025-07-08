@@ -9,6 +9,8 @@
 
 
 
+/*
+****************************/
 // const day = 'Sunday';
 
 // if (day === 'Saturday' || day === 'Sunday') {
@@ -19,7 +21,8 @@
 
 
 
-
+/*
+****************************/
 // let myVariable = 'I Exist!';
 
 // if (myVariable) {
@@ -30,8 +33,8 @@
 
 
 
-
-
+/*
+****************************/
 // let numberOfApples = 0;
 
 // if (numberOfApples){
@@ -44,8 +47,8 @@
 
 
 
-
-
+/*
+****************************/
 let username = '';
 let defaultName = username || 'Stranger';
 

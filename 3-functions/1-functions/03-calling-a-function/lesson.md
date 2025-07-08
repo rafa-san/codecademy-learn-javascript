@@ -7,6 +7,6 @@ However, a function declaration does not ask the code inside the function body t
 
 To call a function in your code, you type the function name followed by parentheses.
 
-The function call executes the function body, or all of the statements between the curly braces in the function declaration.Function execution diagram
+The function call executes the function body, or all of the statements between the curly braces in the function declaration.
 
 We can call the same function as many times as needed.

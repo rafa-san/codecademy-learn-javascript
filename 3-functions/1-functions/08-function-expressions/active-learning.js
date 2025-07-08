@@ -28,7 +28,7 @@ Log plantNeedsWater('Tuesday') to the console. If it worked correctly, you shoul
 */
 
 const plantNeedsWater = function(day) {
-  if(day === 'Wednesday'){
+  if (day === 'Wednesday') {
     return true;
   } else {
     return false;

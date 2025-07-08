@@ -10,9 +10,9 @@ Here’s an example:
 | let myVariable = 'I Exist!';
 | 
 | if (myVariable) {
-|    console.log(myVariable)
+|    console.log(myVariable);
 | } else {
-|    console.log('The variable does not exist.')
+|    console.log('The variable does not exist.');
 | }
 
 The code block in the if statement will run because myVariable has a truthy value; even though the value of myVariable is not explicitly the value true, when used in a boolean or conditional context, it evaluates to true because it has been assigned a non-falsy value.

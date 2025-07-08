@@ -36,7 +36,6 @@ A switch statement provides an alternative syntax that is easier to read and wri
 | 
 | // Prints 'Papayas are $1.29'
 
-
 - The switch keyword initiates the statement and is followed by ( ... ), which contains the value that each case will compare. In the example, the value or expression of the switch statement is groceryItem.
 
 - Inside the block, { ... }, there are multiple cases. The case keyword checks if the expression matches the specified value that comes after it. The value following the first case is 'tomato'. If the value of groceryItem equalled 'tomato', that case‘s console.log() would run.

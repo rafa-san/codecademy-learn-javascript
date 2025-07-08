@@ -16,8 +16,9 @@ Take a look at the if...else statement example:
 
 We can use a ternary operator to perform the same functionality:
 
-| isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
-
+| isNightTime 
+|   ? console.log('Turn on the lights!')
+|   : console.log('Turn off the lights!');
 
 In the example above:
 
