@@ -28,14 +28,14 @@ const callMyNightSky = () => {
 console.log(callMyNightSky());
 */
 
-const satellite2 = 'The Moon';
-const galax2y = 'The Milky Way';
-let stars2 = 'North Star';
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
 
-const callMyNightSky2 = () => {
-  stars2 = 'Sirius';
-	return 'Night Sky: ' + satellite2 + ', ' + stars2 + ', ' + galaxy2;
+const callMyNightSky = () => {
+  stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
 };
 
-console.log(callMyNightSky2());
-console.log(stars2);
+console.log(callMyNightSky()); // Night Sky: The Moon, Sirius, The Milky Way
+console.log(stars); // Sirius
