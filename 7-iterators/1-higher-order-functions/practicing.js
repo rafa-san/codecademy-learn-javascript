@@ -1,3 +1,5 @@
+/*
+****************************/
 // const announceThatIAmDoingImportantWork = () => {
 //   console.log("I’m doing very important work!");
 // };
@@ -6,7 +8,8 @@
 
 
 
-
+/*
+****************************/
 const higherOrderFunc = param => {
   param();
   return `I just invoked ${param.name} as a callback function!`
@@ -27,6 +30,8 @@ console.log(higherOrderFunc(anotherFunc));
 
 
 
+/*
+****************************/
 /*
 */
 
