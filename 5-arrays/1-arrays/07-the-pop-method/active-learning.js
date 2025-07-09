@@ -13,8 +13,8 @@ Instructions
 const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
 */
 
-const chores2 = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
+const chores = ['wash dishes', 'do laundry', 'take out trash', 'cook dinner', 'mop floor'];
 
-chores2.pop();
+chores.pop();
 
-console.log(chores2);
+console.log(chores);
