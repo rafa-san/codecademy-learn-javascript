@@ -1,7 +1,6 @@
 # Conditional Statements
 
 ## Ternary Operator
-
 In the spirit of using short-hand syntax, we can use a ternary operator to simplify an if...else statement.
 
 Take a look at the if...else statement example:
