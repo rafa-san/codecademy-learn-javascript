@@ -31,6 +31,7 @@ See an example of how to use .isInteger() and log the result:
 console.log(Math.random() * 100);
 
 // #2
+// Esse código gera e exibe um inteiro aleatório entre 0 e 99, inclusive.
 console.log(Math.floor(Math.random() * 100));
 
 // #3
