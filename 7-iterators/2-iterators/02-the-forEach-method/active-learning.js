@@ -8,27 +8,23 @@ You may use any form of callback you prefer.
 
 const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 
-// forma 1
+// FORMA 1
 function printFruits(fruit, index) {
-  //console.log(`${index + 1}: ${fruit}`);
+  // console.log(`${index + 1}: ${fruit}`);
 }
 
-//fruits.forEach(printFruits);
+// fruits.forEach(printFruits);
 
 
-/**** */
 
-
-// forma 2
+// FORMA 2
 fruits.forEach(function(fruit, index) {
-  //console.log(`${index + 1} - ${fruit}`);
+  // console.log(`${index + 1} - ${fruit}`);
 })
 
 
-/**** */
 
-
-// forma 3
+// FORMA 3
 fruits.forEach((fruit, index) => {
   console.log(`${index + 1} * ${fruit}`);
 })

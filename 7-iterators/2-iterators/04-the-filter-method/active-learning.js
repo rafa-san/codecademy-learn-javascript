@@ -22,18 +22,22 @@ const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
 // Call .filter() on randomNumbers below
 
-// const smallNumbers = randomNumbers.filter(function(number) {
-//   if (number < 250) {
-//     return true;
-//   }
-// });
+const smallNumbers = randomNumbers.filter(function(number) {
+  if (number < 250) {
+    return true;
+  }
+});
 
-/*
-ou
-*/
-const smallNumbers = randomNumbers.filter(number => number < 250);
-//console.log(smallNumbers);
+// console.log(smallNumbers);
 
+/***/
+
+// OU
+const smallNumbers2 = randomNumbers.filter(number => number < 250);
+
+// console.log(smallNumbers2);
+
+/***/
 
 const favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
 

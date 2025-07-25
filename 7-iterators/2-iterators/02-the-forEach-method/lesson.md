@@ -12,7 +12,7 @@ The first iteration method that we’re going to learn is .forEach(). Aptly name
 The code above will log a nicely formatted list of the groceries to the console. Let’s explore the syntax of invoking .forEach().
 
 - groceries.forEach() calls the forEach method on the groceries array.
-- .forEach() takes an argument of callback function. Remember, a callback function is a function passed as an argument into another function.
+- .forEach() takes an argument of callback function. **Remember, a callback function is a function passed as an argument into another function**.
 - .forEach() loops through the array and executes the callback function for each element. During each execution, the current element is passed as an argument to the callback function.
 - The return value for .forEach() will always be undefined.
 

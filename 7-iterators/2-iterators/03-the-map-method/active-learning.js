@@ -11,43 +11,47 @@ Use .map() to create a new array that contains the first character of each strin
 
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
-// forma 1
-// function getFirstWord(animal) {
-//   return animal[0];
-// }
+// RESOLUÇÃO #1
+function getFirstWord(animal) {
+  return animal[0];
+}
 
-// const secretMessage = animals.map(getFirstWord);
+const secretMessage1 = animals.map(getFirstWord);
+// console.log(secretMessage1.join(''));
 
+/***/
 
-// forma 2
-// const secretMessage = animals.map(function(firstWord) {
-//   return firstWord[0];
-// })
+// RESOLUÇÃO #2
+const secretMessage2 = animals.map(function(firstWord) {
+  return firstWord[0];
+})
 
+// console.log(secretMessage1.join(''));
 
-// forma 3
-const secretMessage = animals.map(firstWord => firstWord[0]);
+/***/
 
+// RESOLUÇÃO #3
+const secretMessage3 = animals.map(firstWord => firstWord[0]);
 
-console.log(secretMessage.join(''));
+// console.log(secretMessage3.join(''));
+
 
 
 /*
-#2
-Create the smallNumbers array below
-*/
-
+CREATE THE SMALLNUMBERS ARRAY BELOW
+****************************/
 const bigNumbers = [100, 200, 300, 400, 500];
 
 const smallNumbers = bigNumbers.map(number => number / 100);
 
-/*
-OU
+// console.log(bigNumbers);
+// console.log(smallNumbers);
 
-const smallNumbers = bigNumbers.map(number => {
+// OU
+
+const smallNumbers2 = bigNumbers.map(number => {
   return number / 100;
-})
-*/
+});
 
 console.log(bigNumbers);
 console.log(smallNumbers);
