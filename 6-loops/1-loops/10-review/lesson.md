@@ -9,5 +9,5 @@ Great job! In this lesson, we learned how to write cleaner code with loops. You 
 . A nested for loop is a loop inside another loop
 . while loops allow for different types of stopping conditions
 . Stopping conditions are crucial for avoiding infinite loops.
-. do...while loops run code at least once— only checking the stopping condition after the first execution
+. do...while loops run code at least once — only checking the stopping condition after the first execution
 . The break keyword allows programs to leave a loop during the execution of its block
