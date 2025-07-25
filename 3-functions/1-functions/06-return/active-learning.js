@@ -17,18 +17,6 @@ Declare a variable named numOfMonitors using the const keyword and assign numOfM
 
 
 4. To check that the function worked properly, log numOfMonitors to the console.
-
-
-***
-
-
-function monitorCount(rows, columns) {
-  return rows * columns;
-}
-
-const numOfMonitors = monitorCount(5, 4);
-
-console.log(numOfMonitors);
 */
 
 function monitorCount(rows, columns) {
