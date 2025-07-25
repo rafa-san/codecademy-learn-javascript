@@ -25,8 +25,8 @@ Uma função de callback é uma função que é passada como argumento para outr
 
 É muito utilizada na linguagem JavaScript, por exemplo, para criar efeitos visuais de animação. 
 
-Como funciona
-A função de callback é passada como um argumento para outra função 
-A função que aceita outras funções como argumentos é chamada de função de ordem superior 
-A função de callback é executada quando algum evento acontece ou depois que algum código chega ao estado desejado 
-A função de callback age de forma assíncrona, ou seja, não é executada imediatamente
+Como funciona:
+. A função de callback é passada como um argumento para outra função 
+. A função que aceita outras funções como argumentos é chamada de função de ordem superior 
+. A função de callback é executada quando algum evento acontece ou depois que algum código chega ao estado desejado 
+. A função de callback age de forma assíncrona, ou seja, não é executada imediatamente

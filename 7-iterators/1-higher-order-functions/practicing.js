@@ -1,10 +1,13 @@
 /*
 ****************************/
-// const announceThatIAmDoingImportantWork = () => {
-//   console.log("I’m doing very important work!");
-// };
+const announceThatIAmDoingImportantWork = () => {
+  console.log("I’m doing very important work!");
+};
 
-// announceThatIAmDoingImportantWork();
+//announceThatIAmDoingImportantWork();
+
+const busy = announceThatIAmDoingImportantWork;
+//console.log(busy()); // I’m doing very important work!
 
 
 
@@ -19,30 +22,26 @@ const anotherFunc = () => {
   return 'I\'m being invoked by the higher-order function!';
 }
 
-higherOrderFunc(anotherFunc);
-console.log(higherOrderFunc(anotherFunc));
+// console.log(higherOrderFunc(anotherFunc));
 
-// higherOrderFunc(() => {
-//   for (let i = 0; i <= 10; i++){
-//     console.log(i);
-//   }
-// });
+higherOrderFunc(() => {
+  for (let i = 0; i <= 10; i++){
+    console.log(i);
+  }
+});
 
 
 
 /*
 ****************************/
-/*
-*/
+const myFunction = () => {
+  return 'Futebol';
+}
 
-// const myFunction = () => {
-//   return 'Bola';
-// }
+const HighOrder = (param) => {
+  param();
+  return param();
+}
 
-// const HighOrder = (param) => {
-//   param();
-//   return param();
-// }
-
-// //myFunction();
-// console.log('Palavra: ' + HighOrder(myFunction));
+//myFunction();
+//console.log('Palavra: ' + HighOrder(myFunction));
