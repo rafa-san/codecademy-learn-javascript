@@ -40,8 +40,7 @@ function changeArr(arr){
 changeArr(concept);
 console.log(concept);
 
-/*
-****************************/
+/***/
 
 const removeElement = (newArr) => {
   newArr.pop();
