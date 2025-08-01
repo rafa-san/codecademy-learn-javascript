@@ -6,9 +6,7 @@ Instructions
 
 2. Using bracket notation and the propName variable provided, console.log() the value of the 'Active Mission' property.
 
-
 ***
-
 
 let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
@@ -22,16 +20,16 @@ let propName =  'Active Mission';
 // Write your code below
 */
 
-let spaceship2 = {
+let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
   'Active Mission' : true,
   homePlanet : 'Earth', 
   numCrew: 5
 };
 
-let propName =  'Active Mission';
+let propName = 'Active Mission';
 
 // Write your code below
-const isActive = spaceship2['Active Mission'];
+const isActive = spaceship['Active Mission'];
 
 console.log(isActive);

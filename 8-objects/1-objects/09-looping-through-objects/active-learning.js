@@ -50,5 +50,3 @@ console.log("");
 for (let i in spaceship.crew) {
   console.log(`${spaceship.crew[i].name}: ${spaceship.crew[i].degree}`);
 }
-
-console.log("");

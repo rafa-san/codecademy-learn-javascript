@@ -9,9 +9,7 @@ Instructions
 
 3. Use the delete operator to remove the 'Secret Mission' property from the spaceship object.
 
-
 ***
-
 
 let spaceship = {
   'Fuel Type' : 'Turbo Fuel',

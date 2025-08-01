@@ -6,9 +6,7 @@ Instructions
 
 2. Again using the dot operator, create a variable planetArray and assign the spaceship‘s flightPath property to it.
 
-
 ***
-
 
 let spaceship = {
   homePlanet: 'Earth',

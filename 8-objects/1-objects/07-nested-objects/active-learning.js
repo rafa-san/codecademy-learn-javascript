@@ -9,9 +9,7 @@ Instructions
 
 3. Create a variable firstPassenger and assign the first passenger as its value (the element in the 0th index of the spaceship.passengers array you just made). Make sure to use bracket and dot notation to get the passenger object through nested access (don’t just copy the object into the variable!)
 
-
 ***
-
 
 let spaceship = {
   passengers: null,
