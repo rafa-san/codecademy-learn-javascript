@@ -15,9 +15,7 @@ Instructions
 
 5. In the fifth method call, replace the word method with a method that will return a boolean value.
 
-
 ***
-
 
 const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
 

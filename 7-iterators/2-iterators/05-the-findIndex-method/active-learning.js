@@ -24,26 +24,27 @@ const foundAnimal = animals.findIndex((animal) => {
   return animal === "elephant";
 });
 
-//console.log(foundAnimal); // 7
-//console.log(animals[7]); // elephant
+// console.log(foundAnimal); // 7
+// console.log(animals[7]); // elephant
 
+/***/
 
+const startsWithS1 = animals.findIndex((letterS) => {
+  return letterS.charAt(0) === "s";
+});
 
-// const startsWithS = animals.findIndex((letterS) => {
-//   return letterS.charAt(0) === "s";
-// });
-
+// console.log(startsWithS1);
 
 // outra forma:
 
-const startsWithS = animals.findIndex(letterS => {
+const startsWithS2 = animals.findIndex(letterS => {
   return letterS[0] === 's';
 });
 
-
-console.log(startsWithS);
+console.log(startsWithS2);
 console.log(animals[3]);
 
+/***/
 
 const checar = animals[3] === 'seal' ? 'sim' : 'não';
 console.log(checar);

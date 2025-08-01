@@ -15,7 +15,6 @@ Complete the code between the parentheses to check if every element has more tha
 
 Make sure to uncomment (delete the // before) the last line of the program before you run the code.
 
-
 ***
 
 const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
@@ -28,8 +27,6 @@ console.log(words.some(() => {
 
 // Use filter to create a new array
 
-
-
 // Make sure to uncomment the code below and fix the incorrect code before running it
 
 // console.log(interestingWords.every((word) => { } ));
@@ -38,10 +35,11 @@ console.log(words.some(() => {
 const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
 
 // Something is missing in the method call below
-
 console.log(words.some((word) => {
   return word.length < 6;
 }));
+
+/***/
 
 // Use filter to create a new array
 const interestingWords = words.filter(longerThan5 => {
@@ -50,9 +48,9 @@ const interestingWords = words.filter(longerThan5 => {
 
 console.log(interestingWords);
 
+/***/
 
 // Make sure to uncomment the code below and fix the incorrect code before running it
-
 console.log(interestingWords.every((word) => { 
   return word.length > 5;
 } ));
