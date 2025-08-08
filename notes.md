@@ -1,7 +1,6 @@
 # JavaScript Versions: ES6 and Before
 
 ## Ever heard of the term “ES6” and wondered what it’s about? Read this article to read and find out!
-
 You might have seen the term “ES6” or “JavaScript ES6” and wondered what it actually means. Well wonder no further, because we’re going to dive into what ES6 is and how it relates to JavaScript!
 
 First, let’s bring in some history. JavaScript was introduced in 1995 by the company Netscape Communications as a scripting language for web designers and programmers to interact with web pages. The next year, Netscape submitted JavaScript to a standards developing organization called Ecma International to create standards for a scripting language (a type of programming language). In 1997, Ecma International released ECMA-262 which sets standards for the first version of a scripting language called ECMAScript, shortened to ES.
@@ -36,17 +35,6 @@ However, arrow functions are not just simply syntactical re-writes. As with othe
 This being said, we shouldn’t disregard legacy code, i.e. older versions of JavaScript. In fact, there are still many projects that are built and maintained with legacy code! If you want the ability and freedom to work on any sort of JavaScript project, you should familiarize yourself with pre-ES6 and ES6 JavaScript syntax. But don’t worry, we cover both pre-ES6 and ES6 in our JavaScript course. Check it out to become a rockstar at JavaScript basics and learn fundamental programming skills!
 
 
-## General Notes
-Earn XP in these skills areas:
-Computer science
-Data science
-JavaScript
-Mobile development
-Web development
-
-Syllabus = Programa de estudos
-
-
 ## Glossário
 - Data types are used to classify eight fundamental values used for programming in JavaScript, including primitive and object types.
 
@@ -57,6 +45,8 @@ Syllabus = Programa de estudos
 - Methods are object properties that contain functions.
 
 - Objects: A data type for organizing a set of custom properties and behaviors.
+
+- Syllabus: Programa de estudos
 
 
 ## Links Úteis
