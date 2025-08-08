@@ -12,7 +12,7 @@ Call .recharge() on robot to find out.
 
 Notice that a funky string is printed to the console! This is known as a side-effect of type-coercion. No need to worry about what this means for now, but it’s important to understand that you can cause unwanted side-effects when mutating objects and their properties.
 
-=====
+***
 
 const robot = {
   _energyLevel: 100,

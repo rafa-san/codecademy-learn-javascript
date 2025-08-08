@@ -18,7 +18,7 @@ Add an else statement that returns 'System malfunction: cannot retrieve energy l
 
 Notice that the method will return a formatted response rather than just accessing a property!
 
-*****
+***
 
 const robot = {
   _model: '1E78V2',

@@ -45,7 +45,7 @@ const robot = {
 const robot = {
   _model: "1E78V2",
   _energyLevel: 100,
-  _numOfSensors: 15,
+  _numOfSensors: 15, // alternar string e número para ver o resultado
   get numOfSensors() {
     if (typeof this._numOfSensors === "number") {
       return this._numOfSensors;
@@ -62,6 +62,6 @@ const robot = {
   },
 };
 
-robot.numOfSensors = 100;
+robot.numOfSensors = "100";
 
 console.log(robot.numOfSensors);

@@ -17,7 +17,7 @@ Replace ‘MODEL’ and ‘ENERGYLEVEL’ with the calling object’s model and 
 
 3. Now to check .provideInfo() has access to the internal properties of robot. Log the result of calling .provideInfo() method on robot to the console.
 
-=====
+***
 
 const robot = {
   

@@ -13,7 +13,7 @@ You can use the ES6 shorthand:
 const goat = {
   name: 'Billy',
   color: 'biege',
-  giveDetails(){
+  giveDetails() {
     console.log(`${this.name} is a ${this.color} goat.`)
   }
 }
@@ -28,7 +28,7 @@ const goat = {
   }
 }
 
-=====
+***
 
 const robot = {
   energyLevel: 100,

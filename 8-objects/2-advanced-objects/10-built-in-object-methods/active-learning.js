@@ -51,17 +51,18 @@ const robot = {
 
 // What is missing in the following method call?
 const robotKeys = Object.keys(robot);
+// console.log(robotKeys); // [ 'model', 'mobile', 'sentient', 'armor', 'energyLevel' ]
 
-//console.log(robotKeys);
 
 // Declare robotEntries below this line:
 const robotEntries = Object.entries(robot);
-//console.log(robotEntries);
-//console.log(robotEntries[1]);
+// console.log(robotEntries);
+// console.log(robotEntries[1]);
+
 
 // Declare newRobot below this line:
 const newRobot = Object.assign(
   { laserBlaster: true, voiceRecognition: true },
   robot
 );
-console.log(newRobot);
+// console.log(newRobot);
