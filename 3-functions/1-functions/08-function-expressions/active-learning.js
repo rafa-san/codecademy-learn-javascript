@@ -27,7 +27,7 @@ Instructions
 Log plantNeedsWater('Tuesday') to the console. If it worked correctly, you should see false logged to the console.
 */
 
-const plantNeedsWater = function(day) {
+const plantNeedsWater = function (day) {
   if (day === 'Wednesday') {
     return true;
   } else {

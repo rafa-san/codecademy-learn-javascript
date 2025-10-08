@@ -17,7 +17,7 @@ Run your code and notice the output. Inside the if block console.log(lightWaves)
 
 const logVisibleLightWaves = () => {
   let lightWaves = 'Moonlight';
-	let region = 'The Arctic';
+  let region = 'The Arctic';
   // Add if statement here:
   
   console.log(lightWaves);

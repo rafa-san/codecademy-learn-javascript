@@ -19,6 +19,8 @@ if (isLocked) {
   console.log('You will not need a key to open the door.');
 }
 
+
+
 let isCorrect = true;
 
 if (isCorrect) {
@@ -26,6 +28,8 @@ if (isCorrect) {
 } else {
   console.log('Incorrect!');
 }
+
+
 
 let favoritePhrase = 'Love That!';
 
@@ -42,6 +46,8 @@ isLocked
   ? console.log("You will need a key to open the door.")
   : console.log("You will not need a key to open the door.");
 
+
+
 /*
 ****************************/
 let isCorrect = true;
@@ -49,6 +55,8 @@ let isCorrect = true;
 isCorrect 
   ? console.log("Correct!")
   : console.log("Incorrect!");
+
+
 
 /*
 ****************************/

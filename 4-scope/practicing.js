@@ -1,12 +1,12 @@
 /*
 ****************************/
 const logSkyColor = () => {
-  let color = 'blue'; 
+  let color = 'blue';
   console.log(color); // blue 
 }
 
-//console.log(typeof logSkyColor); // function
-//logSkyColor(); // blue
+// console.log(typeof logSkyColor); // function
+// logSkyColor(); // blue
 
 
 
@@ -18,14 +18,14 @@ const returnSkyColor = () => {
   return color; // blue 
 };
 
-//console.log(returnSkyColor()); // blue
+// console.log(returnSkyColor()); // blue
 
 
 
 /*
 ****************************/
 const logSkyColor2 = () => {
-  let color = 'blue'; 
+  let color = 'blue';
   console.log(color); // Prints "blue"
 };
 
@@ -54,7 +54,7 @@ console.log(num); // Prints 100
 // block scope
 const logSkyColor3 = () => {
   const dusk = true;
-  let color = 'blue'; 
+  let color = 'blue';
   if (dusk) {
     let color = 'pink';
     console.log(color); // Prints "pink"
