@@ -22,7 +22,7 @@ const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
 // Call .filter() on randomNumbers below
 
-const smallNumbers = randomNumbers.filter(function(number) {
+const smallNumbers = randomNumbers.filter(function (number) {
   if (number < 250) {
     return true;
   }

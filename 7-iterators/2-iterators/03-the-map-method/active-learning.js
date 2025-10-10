@@ -22,7 +22,7 @@ const secretMessage1 = animals.map(getFirstWord);
 /***/
 
 // RESOLUÇÃO #2
-const secretMessage2 = animals.map(function(firstWord) {
+const secretMessage2 = animals.map(function (firstWord) {
   return firstWord[0];
 })
 

@@ -18,7 +18,7 @@ function printFruits(fruit, index) {
 
 
 // FORMA 2
-fruits.forEach(function(fruit, index) {
+fruits.forEach(function (fruit, index) {
   // console.log(`${index + 1} - ${fruit}`);
 })
 

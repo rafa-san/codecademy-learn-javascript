@@ -30,6 +30,6 @@ let spaceship = {
 let propName = 'Active Mission';
 
 // Write your code below
-const isActive = spaceship['Active Mission'];
+const isActive = spaceship[propName];
 
 console.log(isActive);

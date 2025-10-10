@@ -3,14 +3,14 @@
 const groceries = ['brown sugar', 'salt', 'cranberries', 'walnuts'];
 
 // MODO #1: FUNCTION DECLARATION
-function printGrocery(element){
+function printGrocery(element) {
   // console.log(element);
 }
 groceries.forEach(printGrocery);
 
 
 // MODO #2: FUNCTION EXPRESSION
-groceries.forEach(function(groceryItem) {
+groceries.forEach(function (groceryItem) {
   // console.log(' - ' + groceryItem);
 })
 
@@ -25,7 +25,7 @@ TO CALL .FILTER() ON AN ARRAY YOU CAN USE THE FOLLOWING SYNTAX:
 ****************************/
 const numbers = [10, 20, 30, 40, 50];
 
-const filteredNums = numbers.filter(function(number) {
+const filteredNums = numbers.filter(function (number) {
   if (number < 25) {
     return true;
   }
@@ -53,7 +53,7 @@ const filteredArray = randomNumbers.filter(n => n > 5);
 ****************************/
 const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 
-fruits.forEach(function(unidades, index) {
+fruits.forEach(function (unidades, index) {
   // console.log(index + ' - ' + unidades);
 })
 
@@ -63,7 +63,7 @@ fruits.forEach(function(unidades, index) {
 
 /*
 ****************************/
-const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; 
+const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door'];
 
 const shortWords = words.filter(word => word.length < 6);
 
@@ -74,7 +74,7 @@ const shortWords = words.filter(word => word.length < 6);
 
 /*
 ****************************/
-const jumbledNums = [123, 25, 78, 5, 9]; 
+const jumbledNums = [123, 25, 78, 5, 9];
 
 const lessThanTen = jumbledNums.findIndex(num => num < 10);
 

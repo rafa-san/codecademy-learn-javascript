@@ -5,7 +5,7 @@ The first iteration method that we’re going to learn is .forEach(). Aptly name
 
 | const groceries = ['brown sugar', 'salt', 'cranberries', 'walnuts'];
 | 
-| groceries.forEach(function(groceryItem) {
+| groceries.forEach(function (groceryItem) {
 |   console.log(' - ' + groceryItem);
 | })
 

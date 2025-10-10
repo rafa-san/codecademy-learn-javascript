@@ -10,7 +10,7 @@ You’ve used bracket notation when indexing an array:
 To use bracket notation to access an object’s property, we pass in the property name (key) as a string.
 
 We must use bracket notation when accessing keys that have numbers, spaces, or special characters in them. Without bracket notation in these situations, our code would throw an error.
- 
+
 | let spaceship = {
 |   'Fuel Type': 'Turbo Fuel',
 |   'Active Duty': true,

@@ -27,7 +27,7 @@ console.log(frase1);
 console.log(frase2);
 
 // 3. Convertendo para JSON
-console.log(JSON.stringify(pessoaComGet)); 
+console.log(JSON.stringify(pessoaComGet));
 console.log(JSON.stringify(pessoaSemGet));
 
 /*
